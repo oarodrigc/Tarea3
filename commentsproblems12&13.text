@@ -1,0 +1,5 @@
+Cada vez que se ejecuta el problema queda claro 
+que el uso de long double conlleva a mayores tiempos
+de ejecución. Por otra parte, se observa que el tiempo
+de ejecución se ve reducido con el uso de variables
+tipo float.

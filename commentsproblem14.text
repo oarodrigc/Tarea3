@@ -1,0 +1,6 @@
+Se observa que la segunda implementación es mucho 
+más rápida en ejecución que la primera. Esto es 
+debido a que en la segunda implementación tenemos
+mayor localidad temporal en el manejo de los arreglos
+x[i] e y[i], ya que pow(x[i], y[j]) es reusado repetidas
+veces y por lo tanto permanece más tiempo en caché.

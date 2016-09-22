@@ -1,0 +1,6 @@
+De los datos en termsVstime.dat y de la gráfica se observa
+que frácturar la sumatoria en 2 o 3 términos resulta en un 
+tiempo de ejecución ligéramente menor comparado al caso 
+donde no hay fracturación (1 término). Sin embargo, cuando
+la sumatoria se parte en 4 o más partes, vemos un súbito
+aumento en el tiempo de ejecución cercano a los 0.001 ms.

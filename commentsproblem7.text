@@ -1,0 +1,22 @@
+a) La implementación correcta  es la última, esto es
+   f4(x) = ((sin(x) + cos(x))/2) * (a + b)
+   
+b) En el primer caso el 2 sólo divide al coseno y no a 
+   la expresión completa sin(x) + cos(x), y la multiplicación
+   se lleva a cabo sólo entre el coseno y la cantidad "a". "b"
+   en este caso es sólo una constante aditiva.
+   
+   En el segundo caso el 2 sólo divide al coseno y no a 
+   la expresión completa sin(x) + cos(x). la suma a+b no 
+   multiplica al seno, como debería ocurrir.
+   
+   En el tercer caso el 2 sigue dividiendo sólamente al coseno
+   y no al seno. Además, la multiplicación sigue llevándose a
+   cabo con la cantidad "a", mientras que "b" sigue siendo una
+   mera constante aditiva.
+   
+c) Es muy importante que a la hora de escribir las expresiones
+   en un programa no haya ambigüedad en la manera como se van
+   a ejecutar las distintas operaciones dentro de la expresión de
+   interés. En este sentido el uso paréntesis es de gran ayuda para
+   definir claramente la presedencia de los operadores.

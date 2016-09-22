@@ -1,0 +1,8 @@
+Cada vez que se ejecuta el program se observa que
+la implementación que toma más tiempo es la 
+correspondiente al caso (a), y que en promedio, la
+implementación que toma menos tiempo de ejecución
+es la (c). Esto es algo extraño, pues se esperaba 
+que esta última por falta de localidad temporal y 
+y espacial, conllevara a un mayor tráfico en memoria
+y por tanto a un mayor tiempo de ejecución.
