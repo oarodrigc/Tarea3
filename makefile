@@ -65,7 +65,7 @@ problem11:
 	$(CC) $@.o $(LFLAGS) -lgsl -lgslcblas -lm -o $@.x
 #       mv $@ $@.x
 
-problem12&13:
+problem12_13:
 	echo Compiling $@.c
 	$(CC) $(CFLAGS) $@.c -o $@.o
 	$(CC) $@.o $(LFLAGS) -lgsl -lgslcblas -lm -o $@.x
