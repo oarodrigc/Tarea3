@@ -1,3 +1,10 @@
+/* File: problem16.c                                                          */
+/* Author: Oscar Andrés Rodríguez                                             */
+/* Description: This program  calculates execution time of a series when this */
+/*              is broken down in independent summations of 2, 3, 4, 5, 6 and */
+/*              10 terms.ayed in screen. The program generates the data  file */
+/*              timeVsterms.dat                                               */
+
 #include <stdio.h>
 #include <time.h>
 
